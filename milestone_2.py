@@ -9,7 +9,6 @@ guess = input("Enter a single letter:")
 
 if len(guess) == 1 and not (guess.isnumeric()):
     print("Good guess!")
-
 else:
     print(f"Oops! {guess} is not a valid input.")
 pass

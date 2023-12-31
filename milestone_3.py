@@ -9,12 +9,10 @@ word_list = random.choice(word_list)
 def check_guess(guess):
     #Convert the guess word to lower case
     guess = guess.lower()
-
     # Check if the guess word is in the word list
     if guess in word_list:
         for letter in word_list:
             print(f"Good guess! , '{guess}' is in the word list")
-
     else:
         print(f"Sorry, '{guess} 'is not in the word. Try again.")
 
@@ -28,7 +26,6 @@ def ask_for_input():
             print ("Invalid letter. Please, enter a single alphabetical character.")
 
     print("Valid guess! ", guess)
-    
     check_guess(guess)
 
 # Calling the function
