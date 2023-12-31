@@ -5,3 +5,4 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 ### Game Outline
 The game starts by asking the user to guess a random letter to form a random word.
+But before then, 
